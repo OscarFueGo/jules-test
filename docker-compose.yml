@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  frontend:
+    build: .
+    image: cv-app-react
+    ports:
+      - "8080:80"

@@ -8,6 +8,6 @@ test('renders overview component for the default route', () => {
       <App />
     </MemoryRouter>
   );
-  const overviewElement = screen.getByText(/This is the overview section./i);
+  const overviewElement = screen.getByText(/Senior Software Engineer/i);
   expect(overviewElement).toBeInTheDocument();
 });
